@@ -49,9 +49,9 @@
     <!-- Description of the book with underlinings and boldded words -->
     <p>
         <u> IKIGAI </u> is a novel by <u>Hector Garcia and Francesc Miralles</u>
-        <p>
+      <p1>
         The book touches the various aspects of life which can help us achieve a long happy life. It is based on ancient, well practised Japanese technique called — IKIGAI. The word derives from iki, meaning life and kai, meaning the realisation of hopes and expectations. A reason to jump out of bed each morning!
-    </p>
+      </p1>
     </p>
     <!-- Name with diff heading size -->
     <h1>A</h1>
@@ -63,12 +63,17 @@
         <!-- This is a comment! this cannot be displayed -->
     <!-- C-c0de -->
     <pre>
-        #include<stdio.h>
-        int main(){
-            int a,b;
-            int c=a*b;
-            printf("%d",c);
-        }
+        #include<stdio.h>  
+        int main()    
+       {    
+        int a=10, b=20;      
+        printf("Before swap a=%d b=%d",a,b);      
+        a=a+b;//a=30 (10+20)    
+        b=a-b;//b=10 (30-20)    
+        a=a-b;//a=20 (30-10)    
+        printf("\nAfter swap a=%d b=%d",a,b);    
+        return 0;  
+        }   
     </pre>
     <marquee behavior="scroll" direction="right ">Ashish</marquee>
 </body>
